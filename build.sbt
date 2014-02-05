@@ -17,7 +17,7 @@ libraryDependencies ++= Seq(
   "org.scalatra" %% "scalatra-scalate" % "2.2.2",
   "org.scalatra" %% "scalatra-specs2" % "2.2.2" % "test",
   "ch.qos.logback" % "logback-classic" % "1.0.13" % "runtime",
-  "org.eclipse.jetty" % "jetty-webapp" % "8.1.10.v20130312" % "container",
+  "org.eclipse.jetty" % "jetty-webapp" % "9.1.1.v20140108" % "compile,container",
   "org.eclipse.jetty.orbit" % "javax.servlet" % "3.0.0.v201112011016" % "container;provided;test" artifacts (Artifact("javax.servlet", "jar", "jar")),
   "javax.servlet" % "servlet-api" % "2.4" % "provided"
 )

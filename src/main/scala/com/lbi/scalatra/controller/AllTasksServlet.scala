@@ -9,8 +9,6 @@ class AllTasksServlet extends ScalatraServlet with ScalateSupport {
   val url = "/test"
 
   get(url) {
-    val warmer = ComponentRegistry.warmer
-    warmer.trigger
     "TEST URL"
   }
 
